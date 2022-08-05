@@ -27,4 +27,4 @@ print(frase2.strip()) #remove espaços em brancos (rstrip remove espaços da dir
 
 #Divisão
 print(frase.split()) #cria uma divisão entre os espaços
-print(''.join(frase)) #muda a configuração
+print('-'.join(frase)) #muda a configuração
