@@ -13,6 +13,7 @@ lista.pop(4) #deleta o ultimo item da lista (pode alterar o index)
 lista.remove(6) #remove o conteudo pedido da lista
 print(lista)
 
+
 valores = list(range(4,11)) #cria uma lista num range de 4 a 11
 print(valores)
 valores.sort(reverse=True) #organiza ou inverte a lista
