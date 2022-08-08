@@ -1,7 +1,7 @@
 def escreva(txt):
-    tamanho = len(txt)
+    tamanho = len(txt) + 4
     print('~' * tamanho)
-    print(txt)
+    print(f'  {txt}')
     print('~' * tamanho)
 
 
