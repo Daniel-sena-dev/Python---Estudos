@@ -20,6 +20,7 @@ def fatorial(numero, show=False):
                 print(f'{fat} x ', end='')
         print(total)
     else:
+        print('-' * 30)
         for contador in range(0, numero - 1):
             fat -= 1
             total *= fat
@@ -27,4 +28,4 @@ def fatorial(numero, show=False):
 
 
 #help(fatorial)
-fatorial(3, True)
+fatorial(5, True)

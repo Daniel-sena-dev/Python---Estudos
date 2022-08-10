@@ -8,5 +8,5 @@
 
 """
 help(print())
-print(input(input.__doc__))
+print(input(len.__doc__))
 

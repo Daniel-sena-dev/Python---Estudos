@@ -29,5 +29,6 @@ def notas(*alunoNotas, sit=True):
 
 
 # Programa principal:
-resp = notas(6, 6, 6, sit=True)
+#help(notas)
+resp = notas(9, 9, 9, sit=True)
 print(resp)

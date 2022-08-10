@@ -5,6 +5,4 @@ def soma(*num):
     print(f'O valor de soma de {num} é igual a {s}')
 
 
-
-
 soma(0, 5, 7)
