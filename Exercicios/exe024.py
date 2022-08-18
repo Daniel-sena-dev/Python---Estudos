@@ -1,0 +1,5 @@
+print('Programa para calcular o download')
+megas = float(input('Digite o tamanho do arquivo em MB: '))
+internet = float(input('Digite a velocidade da internet em Mbps: '))
+download = megas / (internet/8)
+print(f'A velocidade de download é de {download}s.')

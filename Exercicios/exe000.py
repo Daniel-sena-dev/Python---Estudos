@@ -1,7 +1,14 @@
 # TESTE
-nota1 = int(input('Digite um nota: '))
-nota2 = int(input('Digite um nota: '))
-nota3 = int(input('Digite um nota: '))
-nota4 = int(input('Digite um nota: '))
-media = (nota1 + nota2 + nota3 + nota4)/ 4
-print(f'A media foi de {media}')
+lataTinta18 = 18
+lataTinta36 = 3.6
+parede = 250 / 6
+print(f'TOTAL QUE PRECISA PARA PAREDE {parede:.02f}')
+total18 = parede // lataTinta18
+resto = parede % lataTinta18
+print(f'{resto:.02f}')
+print(f'TOTAL DE LATAS 18 QUE PRECISA {total18}')
+
+total36 = resto // lataTinta36
+
+print(f'TOTAL DE LATAS 3,6 QUE PRECISA {total36}')
+
