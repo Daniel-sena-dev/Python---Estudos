@@ -1,5 +1,8 @@
 print('18- Programa que mostre a soma de uma lista, max e min: ')
-lista = [10, 3, 2, 5, 4]
+quantidadeNumeros = int(input('Digite a quantidade de numeros: '))
+lista = list()
+for contador in range(0, quantidadeNumeros):
+    lista.append(int(input('Digite um numero: ')))
 soma = 0
 for cont in lista:
     soma += cont
