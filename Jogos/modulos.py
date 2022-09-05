@@ -13,6 +13,7 @@ def menus(txt):
     print(txt)
     linhas(txt)
 
+
 # Sorteador de palavras
 def sorteador():
     listaPalavras = ['banana', 'fruta', 'maça', 'uva', 'carro', 'cachorro', 'gato', 'puxador',
