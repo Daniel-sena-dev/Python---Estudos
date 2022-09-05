@@ -9,7 +9,7 @@ for contador in range(0, pessoas):
     print(f'{nome}, Qual é o seu sexo? digite\n [M] para masculino \n [F] para femino')
     sexo = input('Digite: ').lower()
 
-    #soma das idades p/ media
+    #soma das idades p/ mediaVeiculos
     somaIdade += idade
 
     if sexo == 'f' and idade < 20:

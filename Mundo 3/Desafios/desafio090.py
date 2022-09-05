@@ -1,7 +1,7 @@
 aluno = dict()
 
 aluno['Nome'] = input('Digite o nome do aluno: ')
-aluno['Media'] = float(input(f'Digite a media de {aluno["Nome"]}: '))
+aluno['Media'] = float(input(f'Digite a mediaVeiculos de {aluno["Nome"]}: '))
 
 if aluno['Media'] >= 7:
     aluno['Situação'] = 'Aprovado'

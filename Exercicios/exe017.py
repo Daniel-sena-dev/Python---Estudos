@@ -22,7 +22,7 @@ nota2 = int(input('Digite a segunda nota: '))
 nota3 = int(input('Digite a terceira nota: '))
 nota4 = int(input('Digite a quarta nota: '))
 media = (nota1 + nota2 + nota3 + nota4)/4
-print(f'A media das notas foi {media:.02f}')
+print(f'A mediaVeiculos das notas foi {media:.02f}')
 print('-' * 20)
 
 print('5- Converter metros para centimetros')

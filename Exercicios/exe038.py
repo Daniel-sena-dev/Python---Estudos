@@ -1,4 +1,4 @@
-print('14- Programa para media de alunos 3.0v')
+print('14- Programa para mediaVeiculos de alunos 3.0v')
 nota1 = float(input('Digite a primeira nota: '))
 nota2 = float(input('Digite a segunda nota: '))
 media = (nota1 + nota2) / 2
