@@ -1,5 +1,5 @@
 import time
-
+print('46- Verificar media de saltos dos atletas 1.0v: ')
 ordem = ['Primeiro', 'Segundo', 'Terceiro', 'Quarto', 'Quinto']
 listaSaltos = list()
 media = 0
